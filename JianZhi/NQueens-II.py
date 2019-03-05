@@ -5,7 +5,7 @@ class Solution(object):
         :rtype: List[List[str]]
         """
         self.res = 0
-        self._solve(n, [], [])
+        self._solve(n, [])
         return self.res
 
     def _solve(self, n, pos):
